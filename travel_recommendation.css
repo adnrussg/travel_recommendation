@@ -26,3 +26,47 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-btn, .clear-btn {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-btn:hover, .clear-btn:hover {
+    background-color: #005555;
+}
