@@ -18,8 +18,15 @@ document.getElementById("btnSearch").addEventListener("click", function() {
                 results = data.temples;
             }
             // Match for 'country' or search by specific country names
-            else if (input.includes("country") || input.includes("australia") || input.includes("japan") || input.includes("brazil")) {
+            else if (input.includes("country") || input.includes("countries")) {
                 results = data.countries.map(country => country.cities).flat();
+            }
+            // Match for specific country names (Australia, Japan, Brazil) to display their cities
+            else if (["australia", "japan", "brazil"].includes(input)) {
+                const country = data.countries.find(country => country.name.toLowerCase() === input);
+                if (country) {
+                    results = country.cities;
+                }
             }
 
             // If results are found, display them
