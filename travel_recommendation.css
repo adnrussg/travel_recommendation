@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('background-image.jpg');
     background-size: cover;
-    /* background-position: center; */
 }
 
 .navbar {
@@ -117,7 +116,6 @@ body {
 .banner-content p {
     font-size: 20px;
     max-width: 400px;
-    /* margin: 0 auto; */
     margin-bottom: 30px;
 }
 
@@ -133,4 +131,71 @@ body {
 
 .book-btn:hover {
     background-color: #005555;
+}
+
+/* Company Information Section */
+.company-info {
+    text-align: start;
+    color: white;
+    padding: 50px 20px;
+    margin-left: 80px;
+}
+
+.company-info h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.team h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+    margin-right: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.team-member h3 {
+    text-align: start;
+    font-size: 24px;
+    color: white;
+}
+
+.team-member p {
+    background-color: #274483;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
 }
