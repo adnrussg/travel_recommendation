@@ -18,9 +18,9 @@
             <a href="contact_us.html">Contact Us</a>
         </nav>
         <div class="search-container">
-            <input type="text" placeholder="Enter a destination or keyword" size="30">
-            <button class="search-btn">Search</button>
-            <button class="clear-btn">Clear</button>
+            <input type="text" id="conditionInput" placeholder="Enter a destination or keyword" size="30">
+            <button class="search-btn" id="btnSearch">Search</button>
+            <button class="clear-btn" id="btnClear">Clear</button>
         </div>
     </header>
 
@@ -41,5 +41,9 @@
             <button class="book-btn">Book Now</button>
         </div>
     </section>
+    <div class="searchCondition">
+        <div id="result"></div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>

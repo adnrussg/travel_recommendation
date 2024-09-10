@@ -266,3 +266,57 @@ body {
 .contact-form .submit-btn:hover {
     background-color: #005555;
 }
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #ddd;  /* Light border */
+    border-radius: 10px;      /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a card effect */
+    background-color: #fff;  /* White background */
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Styling for images */
+.result-item img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the image */
+}
+
+/* Heading for the place name */
+.result-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;  /* Darker text for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the description */
+.result-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;  /* Gray color for subtle text */
+}
+
+/* Styling for the "Visit" button */
+.result-item button {
+    background-color: #28a745;  /* Green color for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.result-item button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
