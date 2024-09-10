@@ -27,8 +27,8 @@ document.getElementById("btnSearch").addEventListener("click", function() {
                 results.forEach(item => {
                     resultDiv.innerHTML += `
                         <div class="result-item">
+                        <img src="${item.imageUrl}" alt="${item.name}">
                             <h3>${item.name}</h3>
-                            <img src="${item.imageUrl}" alt="${item.name}" width="200">
                             <p>${item.description}</p>
                             <button class="visit-btn">Visit</button>
                         </div>

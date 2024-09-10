@@ -267,56 +267,60 @@ body {
     background-color: #005555;
 }
 
+.result {
+    position: absolute;
+    top: 70px;
+    left: 65%;
+    right: 0;
+}
+
 .result-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    align-items: flex-start;
     margin: 20px 0;
-    border: 2px solid #ddd;  /* Light border */
-    border-radius: 10px;      /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a card effect */
-    background-color: #fff;  /* White background */
-    max-width: 500px;
-    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
 }
 
-/* Styling for images */
 .result-item img {
     border-radius: 10px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
-/* Heading for the place name */
 .result-item h3 {
-    margin-top: 10px;
+    margin: 0;
+    margin: 0px 20px 0px 20px;
     font-size: 24px;
-    color: #333;  /* Darker text for better contrast */
+    color: #333;
     font-family: 'Arial', sans-serif;
 }
 
-/* Styling for the description */
 .result-item p {
-    margin: 10px 0;
+    margin-right: 20px;
+    margin-left: 20px;
     font-size: 16px;
     line-height: 1.5;
-    color: #666;  /* Gray color for subtle text */
+    color: #666;
 }
 
-/* Styling for the "Visit" button */
 .result-item button {
-    background-color: #28a745;  /* Green color for the button */
+    background-color: #008080; 
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 0px 20px 20px 20px;
 }
 
 .result-item button:hover {
-    background-color: #218838;  /* Darker green on hover */
+    background-color: #005555;
 }
